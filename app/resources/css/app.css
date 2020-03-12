@@ -1,0 +1,49 @@
+body {
+  font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+  color: #7f8c9a;
+  background-color: #ffffff;
+  background-size: cover;
+}
+h1 {
+  margin-bottom: 5px;
+  font-weight: normal;
+  text-align: center;
+  color: #178093;
+}
+form {
+  width: 225px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-import:hover,
+.btn-import:focus {
+  background: #45a9bc;
+  color: #fff;
+}
+
+.btn-import {
+  color: #fff;
+  background-color: #178093;
+  border-color: #178093;
+}
+
+/* .tree {
+  border-left: 2px solid #dfe6e9;
+} */
+
+.form {
+  padding: 0px 60px;
+  margin: 0px 20px;
+}
+
+.root {
+  color: #ef7d3a;
+}
+
+.children {
+  color: #46adcc;
+}
+
+
+

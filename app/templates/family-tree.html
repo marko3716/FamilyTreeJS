@@ -1,0 +1,37 @@
+<!-- FILE UPLOAD -->
+<div class="container">
+  <h1>Family tree</h1>
+</div>
+<div class="row mt-4">
+  <div class="col-sm-6">
+    <div class="form">
+      <table class="table">
+        <tr>
+          <td>
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="selectFiles" />
+              <label class="custom-file-label" for="selectFiles"
+                >Choose file</label
+              >
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="button" class="btn btn-import" id="import">
+              Import
+            </button>
+            <button type="button" class="btn btn-import" id="clean">
+              Clean
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- RENDER TREE -->
+  <div class="col-sm-6 tree">
+    <ul id="appendTree"></ul>
+  </div>
+</div>
