@@ -1,0 +1,48 @@
+{
+  "name": "altima-testni-zadatak",
+  "version": "1.0.0",
+  "description": "Testni zadatak za Altimu",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "browserify src/main.js -o app/resources/js/app.js",
+    "watch": "watchify src/main.js -o app/resources/js/app.js -v",
+    "server": "http-server ./app -p 9000"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marko3716/FamilyTreeJS.git"
+  },
+  "keywords": [
+    "ALTIMA",
+    "Testni zadatak",
+    "Javascript"
+  ],
+  "author": "Marko Harambaša",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marko3716/FamilyTreeJS/issues"
+  },
+  "homepage": "https://github.com/marko3716/FamilyTreeJS/blob/master/README.md",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "http-server": "^0.12.1",
+    "jquery": "^3.4.1",
+    "sweetalert2": "^9.5.4",
+    "watchify": "^3.11.1"
+  }
+}
